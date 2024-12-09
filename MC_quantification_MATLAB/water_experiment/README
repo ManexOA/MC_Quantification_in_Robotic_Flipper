@@ -1,9 +1,0 @@
-#How_to_compute_MC_in_MATLAB
-
-To run the MATLAB scripts follow these steps:
-
-1. Download any of the zip folders.
-2. Upload or add the zip folder to MATLAB. 
-3. Go to the folder (or directory), and run the MAIN ".m" script (e.g.: MC_MOTOR_sand_2cycles.m )
-4. After you run the main script the MATLAB code will plot the results.
-5. You can save the plot as a figure (.png)
