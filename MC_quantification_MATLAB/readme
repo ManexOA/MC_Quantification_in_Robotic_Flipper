@@ -1,4 +1,4 @@
-# Instructions_to_run the MATLAB script for quantifying Morphological Computation
+# Instructions to run the MATLAB script for quantifying Morphological Computation
 
 1. Download one of the .ZIP files from this repository.
 2. Open MATLAB desktop or ONLINE (I used ONLINE version)
@@ -6,3 +6,21 @@
 4. Extract the zip file inside your MATLAB directory.
 5. Open the extracted folder.
 6. Run the ".m" file, which is the main script that computes the MC quantification and plots the results.
+
+# How to add data for the MC quantification in Matlab:
+
+1. Create an excel .csv file with your data. E.g. in two columns with dataseries and the actual data.
+2. Upload the .csv file to your Matlab folder where other files and scripts are.
+3. Select the uploaded csv file and select the "Import Data" option.
+4. Select the "Column Vectors" importation option. (This will create two data arrays. E.g. Motor_2_load and Motor_2_position.
+5. Open the "create_struct.m" file to create a struct file with the imported data.
+  5.1. Edit the struct file as needed. For example, the sames of both vectors names might need to be changed.
+6. Once you run the struct scricpt, it will create a struct.
+7. Once the struct file is created, it can be used in the main MC script.
+  7.1. Simply load manually the struct file onto the folder by double-clicking the struct file
+  7.2. Or edit the main MC script, changing the struct file name and directory path (if needed), in the "load data" part of the code.
+"
+% Load data
+load("/MATLAB Drive/MC_flipper_3cycles_WATER/myStruct_water10.mat");
+myStruct_water10.name = 'Flipper_data_water_3cycles';
+"
