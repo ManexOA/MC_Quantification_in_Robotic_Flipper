@@ -1,1 +1,8 @@
+### Instructions to run the MATLAB script for quantifying Morphological Computation
 
+1. Download one of the .ZIP files from this repository.
+2. Open MATLAB desktop or ONLINE (I used ONLINE version)
+3. Import the downloaded .zip file to your MATLAB (Drive folder, in the Online version)
+4. Extract the zip file inside your MATLAB directory.
+5. Open the extracted folder.
+6. Run the ".m" file, which is the main script that computes the MC quantification and plots the results.
