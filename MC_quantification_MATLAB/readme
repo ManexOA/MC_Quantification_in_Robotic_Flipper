@@ -6,6 +6,7 @@
 4. Extract the zip file inside your MATLAB directory.
 5. Open the extracted folder.
 6. Run the ".m" file, which is the main script that computes the MC quantification and plots the results.
+7. You can save the plot as a figure (.png)
 
 # How to add data for the MC quantification in Matlab:
 
