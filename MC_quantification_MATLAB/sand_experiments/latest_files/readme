@@ -1,1 +1,14 @@
+### This MATLAB script computes the MC quantification using load and position data of the flipper moving in water.
+# To run the programme in MATLAB, follow this steps:
+  1. Download the .zip file from this GitHub directory.
+  2. Open MATLAB desktop or ONLINE version.
+  3. Import the .zip file to MATLAB
+  4. Decompress the zip file inside your MATLAB directory
+  5. Run the file named "MC_MOTOR_sand_2cycles_V2.m". This should create the graphs with the MC values.
+
+  If the struct file ("myStruct_water10.mat") fails, a new struct file will be needed. This can be done as follows:
+  1. Double-click on ".CSV" excel file (raw data). Select "type" > Column Vectors, and click on "Import Selection"
+  2. Once data imported as column vectors, click on "create_struct.m", and run the script. This should create a new struct file
+    in the workspace. Once we have the struct file created in the workspace, we can simply RUN the ".m" file to compute the MC quantification.
+  3. If wanted, the struct file can be saved as ".mat" file in the folder, so there is no need to create a new struct every time you open MATLAB.
 
